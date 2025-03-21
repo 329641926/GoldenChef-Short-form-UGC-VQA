@@ -1,5 +1,10 @@
 ### Train the model
-
+- Attention
+  **First of all, you should pip install CLIP-main with commands below**
+  ```python
+  cd CLIP-main
+  pip install .
+  ```
 - Extract the images:
   
   ```python
