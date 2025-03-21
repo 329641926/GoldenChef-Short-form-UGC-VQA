@@ -67,4 +67,6 @@ python test_one_video.py    \
 ### weight
 **https://pan.baidu.com/s/1eRTw1_cVwGpBea4XDINg8g**
 
+### final score
+**submitted-files.zip, This is the final score file that we upload to the official website of the competition**
 
