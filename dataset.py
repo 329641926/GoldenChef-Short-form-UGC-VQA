@@ -30,7 +30,7 @@ class VideoDataset(data.Dataset):
         video_name = str(self.video_names[idx]).split('/')[-1]
         video_name_str = video_name[:-4]
         # video_name_str = str(self.video_names[idx])
-        video_score = torch.FloatTensor(np.array(float(self.score[idx]/20)))
+        video_score = torch.FloatTensor(np.array(float(self.score[idx])))
         # print(f"正在读取视频 {video_name_str}，分数 {video_score}")
         global_patch_path = os.path.join(self.videos_dir, 'Frame_Difference_Patches', video_name_str)
         frames_path = os.path.join(self.videos_dir, 'frames', video_name_str)
