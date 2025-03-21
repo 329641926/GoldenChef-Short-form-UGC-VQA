@@ -64,4 +64,7 @@ python test_one_video.py    \
 --Model_weights_path PRE_LSVQ.pth \
 ```
 
+### weight
+**https://pan.baidu.com/s/1eRTw1_cVwGpBea4XDINg8g**
+
 
