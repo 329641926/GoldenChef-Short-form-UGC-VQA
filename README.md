@@ -2,6 +2,8 @@
 - Attention
   **First of all, you should pip install CLIP-main with commands below**
   ```python
+  conda create -n <your env> python=3.10
+  conda activate <your env>
   pip install requirements.txt
   ```
 - Extract the images:
