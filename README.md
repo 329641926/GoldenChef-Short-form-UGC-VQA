@@ -5,6 +5,8 @@
   conda create -n <your env> python=3.10
   conda activate <your env>
   pip install requirements.txt
+  cd CLIP-main
+  pip install .
   ```
 - Extract the images:
   
