@@ -39,7 +39,7 @@
   --resize 224\
   --epochs 30 \
   --sample_rate 1 \
-  --pretrained_weights_path "" \
+  --pretrained_weights_path Pre_on_LSVQ_for_2.pth \
   >> logs/train.log
   ```
 
@@ -50,7 +50,7 @@ python test.py \
 --videos_dir val_video/MP4    \
 --datainfo data/val_data.csv    \
 --frames 12    \
---Model_weights_path weight/VIT_32_Swim_Tiny_Fast_densenet121_Model.pth    \
+--Model_weights_path weight/final_Model.pth    \
 --resize 224    \
 --num_workers 8
 ```
@@ -61,7 +61,7 @@ python test.py \
 python test_one_video.py    \
 --videos_dir /mnt/cUsers/dell/Desktop/UGC/test_video/MP4/0001.mp4    \
 --frames 12    \
---Model_weights_path PRE_LSVQ.pth \
+--Model_weights_path weight/final_Model.pth  \
 ```
 
 ### weight
