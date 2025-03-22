@@ -39,7 +39,7 @@
   --resize 224\
   --epochs 30 \
   --sample_rate 1 \
-  --pretrained_weights_path Pre_on_LSVQ_for_2.pth \
+  --pretrained_weights_path weight/Pre_on_LSVQ_for_2.pth \
   >> logs/train.log
   ```
 
@@ -63,9 +63,6 @@ python test_one_video.py    \
 --frames 12    \
 --Model_weights_path weight/final_Model.pth  \
 ```
-
-### weight
-**https://pan.baidu.com/s/10e3FmJPCcjU1tuPLlO2OnQ?pwd=2nc8**
 
 ### final score
 **submitted-files.zip, This is the final score file that we upload to the official website of the competition**
