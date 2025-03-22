@@ -7,8 +7,7 @@
   pip install -r requirements.txt
   cd CLIP-main
   pip install .
-  sasa
-  cd sasa
+  cd ..
   ```
 - Extract the images:
   
