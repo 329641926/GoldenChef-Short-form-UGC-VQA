@@ -34,7 +34,7 @@
   --decay_ratio 0.9 \
   --decay_interval 2 \
   --print_samples 1000 \
-  --train_batch_size 6 \
+  --train_batch_size 4 \
   --num_workers 8 \
   --resize 224\
   --epochs 30 \
@@ -50,7 +50,7 @@ python test.py \
 --videos_dir val_video/MP4    \
 --datainfo data/val_data.csv    \
 --frames 12    \
---Model_weights_path weight/PRE_LSVQ.pth    \
+--Model_weights_path weight/VIT_32_Swim_Tiny_Fast_densenet121_Model.pth    \
 --resize 224    \
 --num_workers 8
 ```
